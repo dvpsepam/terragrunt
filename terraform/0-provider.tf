@@ -3,7 +3,6 @@ provider "helm" {
         config_path = "~/.kube/config"
     }
 }
-
 #provider "helm"{
 #    kubernetes {
 #        host = ""
