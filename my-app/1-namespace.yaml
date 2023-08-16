@@ -1,5 +1,5 @@
 ---
-apiversion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx
@@ -18,7 +18,7 @@ spec:
     spec:
       containers: 
         - name: nginx
-          image: motolok/nginx:0.1.0
+          image: motolok/nginx:0.1.1
           ports:
             - containerPort: 80
     
